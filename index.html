@@ -1,0 +1,352 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+		<meta name="generator" content="Jekyll v3.8.5">
+		<title>Madelene & Per</title>
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,600,600i,700&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+		<style>
+			
+			.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+			    margin-bottom: .5rem;
+			    font-family: 'Cabin', sans-serif;
+			    font-weight: 600;
+			    line-height: 1.2;
+			    color: inherit;
+			}
+			
+			.btn {
+			    text-transform: uppercase;
+			    font-size: 12px;
+			    padding: 13px 26px;
+			    letter-spacing: 2px;
+			    border-radius: 0;
+			}
+			
+			.pt-5, .py-5 {
+			    padding-top: 8rem!important;
+			}
+			
+			.pb-5, .py-5 {
+			    padding-bottom: 8rem!important;
+			}
+			
+			.plane-back {
+			  transform: rotate(-180deg);
+			  -webkit-transform: rotate(-180deg);
+			  position: absolute;
+			  top: 15px;
+			}
+			
+			.bg-yesil {
+				background: #faf0e3 !important;
+			}
+			
+			.bg-trans {
+				background: transparent !important;
+			}
+			
+			.title-super {
+				font-size: 90px;
+				font-weight: 900;
+				letter-spacing: 10px;
+				margin-left: 0;
+			}
+			
+			@media (max-width: 500px) {
+			
+			.title-super {
+			font-size: 60px;
+			letter-spacing: 10px;
+			margin-left: 50%;
+			}
+			}
+			
+			@media (max-width: 500px) {
+			
+			.dots {
+			position: absolute;
+			bottom: 0;
+			}
+			}
+			
+			.text-gold {
+				color: #00215C !important;
+			}
+			
+			.border-gold {
+				border-color: #00215C !important;
+			}
+			
+			.text-muted {
+				color: #00215C !important;
+			}
+			
+			
+			
+			
+			
+			.bg-darker-blue {
+				background: #131942 !important;
+			}
+			
+			a {
+				color: #BD9F57;
+			}
+			
+			.btn-primary {
+			    color: #fff;
+			    background-color: #535643;
+			    border-color: #535643;
+			}
+			
+			.btn-primary:hover {
+			    color: #fff;
+			    background-color: #595c48;
+			    border-color: #595c48;
+			}
+			
+			.bg-transparent {
+				background: transparent !important;
+			}
+			
+			.video-responsive {
+			    padding-bottom: 56.25%;
+			    position: relative;
+			    width: 100%;
+			}
+			
+			.bg-responsive {
+			    position: relative;
+			    width: 100%;
+			    background-image: linear-gradient(-180deg, rgba(0,0,0,0.20) 0%, rgba(0,0,0,0.20) 100%), url("");
+			    background-size: cover;
+			    background-position: center center;
+			}
+			background-image: ;
+
+			
+			.canvas-jumbo, .video-jumbo {
+			    background: #000;
+			    height: 100%;
+			    left: 0;
+			    position: absolute;
+			    top: 0;
+			    width: 100%;
+			    z-index: 5;
+			}
+			
+			
+			#over_video {
+			    height: 100%;
+			    position: absolute;
+			    width: 100%;
+			    top: 0;
+			    z-index: 10;
+			    background: rgba(0,0,0,.2);
+			}
+			
+			body {
+			    margin: 0;
+			    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+			    font-size: 1rem;
+			    font-weight: 400;
+			    line-height: 1.5;
+			    color: #212529;
+			    text-align: left;
+			    background-color: #faf0e3;
+			}
+			
+			
+			
+			.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			}
+			
+		
+		</style>
+		<!-- Custom styles for this template -->
+	</head>
+	<body>
+		<header>
+			<div class="navbar navbar-dark bg-transparent fixed-top">
+				<div class="container d-flex justify-content-between">
+					<a href="#" class="navbar-brand d-flex align-items-center mx-auto">
+						<img src="/assets/images/logo-white.svg" style="width: 90px;">
+					</a>
+				</div>
+			</div>
+		</header>
+		<main role="main">
+		<!--
+			<section class="jumbotron-index-video o-hidden">
+				<div class="video-responsive">
+					<video class="video-jumbo" muted="muted" loop="loop" autoplay="autoplay" playsinline="playsinline">
+						<source src="/assets/videos/jumbo-video.webm" type="video/webm">
+						<source src="/assets/videos/jumbo-video.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					</video>
+					<canvas class="canvas-jumbo" style="display: none;"></canvas>
+					<div id="over_video">
+						<div class="container" style="height: 100%">
+							<div class="row justify-content-center align-items-center" style="height: 100%">
+								<div class="col-md-6">
+									<h1 class="title-super text-light text-center">21.09.2019</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			-->
+			<section class="jumbotron-index-video o-hidden">
+				<div class="bg-responsive bg-yesil">
+					<div class="container" style="height: 100%">
+						<div class="row justify-content-between align-items-center" style="height: 100%">
+							<div class="col-6">
+								<h1 class="title-super text-gold">15<br>09<br>2019</h1>
+							</div>
+								<div class="col-10 dots col-sm-4">
+									<img class="img-fluid" src="http://restaurantetoile.se/wp-content/themes/etoile/images/bg_2_2.png">
+								</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="intro bg-yesil pt-5 pb-5">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<p class="h1 text-gold mb-4">Välkommna</p>
+							<p class="lead text-muted mb-4">Kom och mys med oss denna afton. Uppe
+bland molnen finner ni fåfängan, som
+omfamnas av stockholms inlopp. Där ska
+vi fira med ståt och glädje, för att vi
+ ingår i ett livslångt och kärleksfullt äktenskap.
+</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr class="border-gold mt-0 mb-0">
+			<section class="place-section bg-yesil pt-5 pb-5">
+				<div class="container">
+					<h2 class="jumbotron-heading text-gold mb-5">Plats & tid</h2>
+					<div class="row align-items-center justify-content-between">
+						<div class="col-md-6">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.0899629493294!2d18.099186215878273!3d59.314754719233406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7804165fd701%3A0x135cee86e6ccd63c!2zRsOlZsOkbmdhbg!5e0!3m2!1ssv!2sse!4v1565435222298!5m2!1ssv!2sse" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>	
+						</div>
+						<div class="col-md-5">
+									
+									<img class="mt-5 mt-sm-0 img-fluid" style="width: 200px;" src="https://fafangan.se/wp-content/uploads/2019/02/fafangan-logo-svart-retina.png">	
+									<p class="text-muted mt-2">Klockstapelsbacken 3</p>	
+									<p class="text-gold lead bold">Söndagen 15 september, kl 14:00</p>	
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr class="border-gold mt-0 mb-0">
+			<section class="speach-section bg-yesil pt-5 pb-5">
+				<div class="container">
+					<h2 class="jumbotron-heading text-gold mb-5">Tal?</h2>
+					<div class="row justify-content-between">
+						<div class="col-md-6">
+							<p class="lead text-muted">Har du något du vill säga på bröllopet så vill vi gärna att ni kontaktar Kristoffer vår toastmaster för att han ska planera in det i schemat.</p>		
+						</div>
+						<div class="col-md-5">
+							<div class="card border-gold card-flight">
+								<div class="card-body">
+									<p class="text-muted">Toastmaster</p>
+									<p class="lead text-gold">Kristoffer Krukowski</p>		
+									<p class="text-muted">070-xxxxxxx<br>kristoffer@krukowski.se</p>	
+								</div>
+							</div>		
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr class="border-gold mt-0 mb-0">
+			<section class="gift-section bg-yesil pt-5 pb-5">
+				<div class="container">
+					<h2 class="jumbotron-heading text-gold mb-5">Bröllopsgåva</h2>
+					<div class="row justify-content-between">
+						
+						<div class="col-md-6">
+							
+							<p class="lead text-muted">Vi önskar oss inget annat än eran närvaro, det är den bästa gåvan vi kan tänka oss. Om ni dock ändå önskar att ge oss något. Så uppskattas alla bidrag till vår böllopsresa. </p>			
+						</div>
+						<div class="col-md-5">
+							<div class="card border-gold card-flight">
+							<div class="card-body">
+								<p class="text-muted">Bröllopskonto</p>
+								<p class="">SEB konto<br>5246 02 630 58</p>			
+								<p>Eller swish<br>0702658644</p>
+								
+							</div>
+						</div>			
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr class="border-gold mt-0 mb-0">
+			<section class="dresscode-section bg-yesil pt-5 pb-5">
+				<div class="container">
+					<h2 class="jumbotron-heading text-gold">Dresscode</h2>
+					<div class="row align-items-center justify-content-between">
+						
+						<div class="col-md-6 col-10">
+							
+							<p class="lead">Mörk kostym</p>
+							<p class="text-muted">Vad det innebär hittar ni <a href="http://www.kladkoder.nu/mork-kostym/">här</a> </p>		
+						
+						</div>
+						<div class="col-2 col-md-2 d-none d-md-block">
+					
+				<img class="img-fluid" style="width: 100%;" src="https://images.onlinelabels.com/images/clip-art/j4p4n/Suit%20Up%20and%20Walk%20Out-191239.png">						
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr class="border-gold mt-0 pb-4">
+			<section class="img-section">
+				<img class="img-fluid mx-auto text-center d-block mt-5" style="width: 200px;" src="http://restaurantetoile.se/wp-content/themes/etoile/images/bg_2_2.png">
+			</section>
+			
+			<section class="img-section bg-yesil">
+				<div class="container">
+					<div class="">
+						<div class="pb-5 pt-3 text-center">
+							<p class="h1 text-gold">Välkomna</p>
+							<p>Var med oss och fira denna fantstiska dag i kärlekens teckan.</p>
+							
+						
+							
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		</main>
+		<hr class="mt-0 mb-0 border-gold">
+		<footer class="text-muted bg-light pt-5 pb-5 bg-yesil">
+			<div class="container">
+				<p class="float-right">
+					<a href="#">Tillbaka till toppen</a>
+				</p>
+				<p>Madelene & Pers bröllop</p>
+				
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	</body>
+</html>
